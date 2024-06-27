@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors:{
-        'primary-purple': '#8C52FF'
+        'primary-purple': '#8C52FF',
+        'light-purple': '#AE85FF',
+        'dark-gray': '#303030'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
