@@ -11,6 +11,7 @@ const config: Config = {
       colors:{
         'primary-purple': '#8C52FF',
         'light-purple': '#AE85FF',
+        'dark-purple': '#46004D',
         'dark-gray': '#303030'
       },
       backgroundImage: {

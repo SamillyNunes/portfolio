@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import AboutPage from "@/components/pages/AboutPage";
 import HomePage from "@/components/pages/HomePage";
+import SkillsPage from "@/components/pages/SkillsPage";
 import XpPage from "@/components/pages/XpPage";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <HomePage />
         <AboutPage/>
         <XpPage/>
+        <SkillsPage/>
     </div>
   );
 }
