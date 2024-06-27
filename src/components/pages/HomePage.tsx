@@ -27,17 +27,17 @@ export default function HomePage(){
                     pl-32 md:pl-20
                 ">
                     <div>
-                        <h1 id="source" className="text-4xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
+                        <h1 id="source" className="text-5xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
                         <div id="target" className="flex flex-row justify-between">
                             <hr className="bg-white w-14 h-1 mt-2" />
-                            <h1 className="text-4xl font-black">DE SOFTWARE</h1>
+                            <h1 className="text-5xl font-black">DE SOFTWARE</h1>
 
                         </div>
                     </div>
-                    <h3 className="text-lg w-[70%] my-10">
+                    <h3 className="text-xl w-[90%] my-10">
                         Seja bem-vindo ao meu portfólio! Aqui você encontrará informações sobre minhas competências, projetos e muito mais.
                     </h3>
-                    <h3 className="text-lg">
+                    <h3 className="text-xl">
                         Conheça mais ⬇
                     </h3>
                 </div>
