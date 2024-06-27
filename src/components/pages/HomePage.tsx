@@ -19,8 +19,13 @@ export default function HomePage(){
 
     return (
         <Layout>
-            <div className="flex flex-row text-white h-full items-center">
-                <div className="w-[50%] flex flex-col h-[80%] justify-center pl-32">
+            <div className="flex md:flex-col lg:flex-row text-white h-full items-center">
+                <div className="
+                    md:w-[100%] lg:w-[50%] md:h-min lg:h-[80%] 
+                    md:my-10
+                    flex flex-col justify-center 
+                    pl-32 md:pl-20
+                ">
                     <div>
                         <h1 id="source" className="text-4xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
                         <div id="target" className="flex flex-row justify-between">
@@ -36,12 +41,17 @@ export default function HomePage(){
                         Conheça mais ⬇
                     </h3>
                 </div>
-                <div className="w-[50%] flex flex-col  h-[80%] justify-center items-center" >
-                    <img src="/images/photo.png" className="w-[50%]" />
-                    <div className="bg-white w-[60%] h-10 justify-center items-center flex text-black hover:bg-primary-purple hover:text-white">
-                        <h1 className=" font-black text-xl ">
-                            SAMILLY NUNES
-                        </h1>
+                <div className="
+                    md:w-[100%] lg:w-[50%] md:h-min lg:h-[80%] 
+                    flex flex-col md:items-end lg:items-center lg:justify-center
+                " >
+                    <div className="flex flex-col items-center ">
+                        <img src="/images/photo.png" className="w-[50%]" />
+                        <div className="bg-white w-[60%] h-10 justify-center items-center flex text-black hover:bg-primary-purple hover:text-white">
+                            <h1 className=" font-black text-xl ">
+                                SAMILLY NUNES
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </div>
