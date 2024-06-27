@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import AboutPage from "@/components/pages/AboutPage";
+import ContactPage from "@/components/pages/ContactPage";
 import HomePage from "@/components/pages/HomePage";
 import ProjectsPage from "@/components/pages/ProjectsPage";
 import SkillsPage from "@/components/pages/SkillsPage";
@@ -14,6 +15,7 @@ export default function Home() {
         <XpPage/>
         <SkillsPage/>
         <ProjectsPage />
+        <ContactPage />
     </div>
   );
 }
