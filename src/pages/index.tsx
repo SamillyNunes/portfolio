@@ -13,9 +13,9 @@ export default function Home() {
         <HomePage />
         <AboutPage/>
         <XpPage/>
-        {/* <SkillsPage/>
+        <SkillsPage/>
         <ProjectsPage />
-        <ContactPage /> */}
+        {/* <ContactPage /> */}
     </div>
   );
 }

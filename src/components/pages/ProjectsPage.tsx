@@ -48,7 +48,11 @@ export default function ProjectsPage(){
     return (
         <div className="h-min p-10">
             <Title label="PROJETOS" />
-            <div className="mt-10 grid grid-cols-4 justify-center justify-items-center">
+            <div className="
+                mt-10 
+                grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 
+                justify-center justify-items-center
+            ">
                 {projects.map((p, i) => (
                     <ProjectCard
                         title={p.title}
