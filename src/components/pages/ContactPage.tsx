@@ -8,7 +8,7 @@ export default function ContactPage(){
                 <Title label="CONTATO" hasLineUnder={false} />
                 <hr className="h-1 w-full bg-white ml-5" />
             </div>
-            <div className="grid grid-cols-2 w-full mt-5 justify-items-center gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full mt-5 justify-items-center gap-4">
                 <ContactInfo
                     label="samillynunes19@gmail.com"
                     iconUrl="/images/icons/email.png"

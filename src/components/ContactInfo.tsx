@@ -16,7 +16,7 @@ export default function ContactInfo(props: ContactInfo){
                 cursor-pointer
         ">
             <img src={props.iconUrl} className="w-7 object-contain" />
-            <h1 className="text-lg ml-3">
+            <h1 className="text-xs md:text-lg ml-3 truncate text-ellipsis">
                 {props.label}
             </h1>
         </div>

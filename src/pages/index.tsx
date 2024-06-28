@@ -15,7 +15,7 @@ export default function Home() {
         <XpPage/>
         <SkillsPage/>
         <ProjectsPage />
-        {/* <ContactPage /> */}
+        <ContactPage />
     </div>
   );
 }
