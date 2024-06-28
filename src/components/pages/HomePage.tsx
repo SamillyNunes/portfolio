@@ -30,7 +30,7 @@ export default function HomePage(){
                 ">
                     <div>
                         <h1 id="source" className="text-2xl lg:text-5xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
-                        <div id="target" className="flex flex-row justify-between bg-red-200">
+                        <div id="target" className="flex flex-row justify-between">
                             <hr className="bg-white w-14 h-1 mt-2" />
                             <h1 className="text-2xl lg:text-5xl font-black">DE SOFTWARE</h1>
 
