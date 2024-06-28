@@ -18,7 +18,7 @@ export default function ProjectCard(props: ProjectCardProps){
         }, 3000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [props.photos]);
 
     return (
         <div

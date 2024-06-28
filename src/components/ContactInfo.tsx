@@ -15,7 +15,7 @@ export default function ContactInfo(props: ContactInfo){
                 transition-all duration-500
                 cursor-pointer
         ">
-            <img src={props.iconUrl} className="w-7 object-contain" />
+            <img src={props.iconUrl} className="w-7 object-contain" alt="Ícone" />
             <h1 className="text-xs md:text-lg ml-3 truncate text-ellipsis">
                 {props.label}
             </h1>

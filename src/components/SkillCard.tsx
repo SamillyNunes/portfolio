@@ -12,7 +12,7 @@ export default function SkillCard(props: SkillCardProps){
             rounded-lg
         ">
             <div className="h-[80%]">
-                <img src={props.imageUrl} className="h-full" />
+                <img src={props.imageUrl} className="h-full" alt={`Imagem referente a ${props.label}`} />
             </div>
             <h3 className="text-lg mt-2">
                 {props.label}

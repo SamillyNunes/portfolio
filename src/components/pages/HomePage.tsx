@@ -49,7 +49,7 @@ export default function HomePage(){
                     flex flex-col md:items-end lg:items-center lg:justify-center
                 " >
                     <div className="flex flex-col items-center ">
-                        <img src="/images/photo.png" className="w-[50%]" />
+                        <img src="/images/photo.png" className="w-[50%]" alt="Foto de Samilly Nunes" />
                         <div className="bg-white w-[60%] h-10 justify-center items-center flex text-black hover:bg-primary-purple hover:text-white">
                             <h1 className=" font-black text-xl ">
                                 SAMILLY NUNES
