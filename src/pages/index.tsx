@@ -12,10 +12,10 @@ export default function Home() {
         <Header/>
         <HomePage />
         <AboutPage/>
-        <XpPage/>
+        {/* <XpPage/>
         <SkillsPage/>
         <ProjectsPage />
-        <ContactPage />
+        <ContactPage /> */}
     </div>
   );
 }

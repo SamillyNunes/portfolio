@@ -18,23 +18,26 @@ export default function HomePage(){
     }, []);
 
     return (
-        <Layout>
-            <div className="flex md:flex-col lg:flex-row text-white h-full items-center">
+        <div className="
+            flex flex-col lg:flex-row items-center justify-center
+            text-white 
+            h-screen md:h-[calc(100vh*0.85)] 
+        ">
                 <div className="
                     md:w-[100%] lg:w-[50%] md:h-min lg:h-[80%] 
                     md:my-10
                     flex flex-col justify-center 
-                    pl-32 md:pl-20
+                    pl-10 lg:pl-20 
                 ">
                     <div>
-                        <h1 id="source" className="text-5xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
-                        <div id="target" className="flex flex-row justify-between">
+                        <h1 id="source" className="text-2xl lg:text-5xl w-min font-black tracking-widest">DESENVOLVEDORA</h1>
+                        <div id="target" className="flex flex-row justify-between bg-red-200">
                             <hr className="bg-white w-14 h-1 mt-2" />
-                            <h1 className="text-5xl font-black">DE SOFTWARE</h1>
+                            <h1 className="text-2xl lg:text-5xl font-black">DE SOFTWARE</h1>
 
                         </div>
                     </div>
-                    <h3 className="text-xl w-[90%] my-10">
+                    <h3 className="text-lg md:text-xl w-[90%] my-10">
                         Seja bem-vindo ao meu portfólio! Aqui você encontrará informações sobre minhas competências, projetos e muito mais.
                     </h3>
                     <h3 className="text-xl">
@@ -42,7 +45,8 @@ export default function HomePage(){
                     </h3>
                 </div>
                 <div className="
-                    md:w-[100%] lg:w-[50%] md:h-min lg:h-[80%] 
+                    md:w-[50%] lg:w-[50%] md:h-min lg:h-[80%] 
+                    mt-10 md:mt-0
                     flex flex-col md:items-end lg:items-center lg:justify-center
                 " >
                     <div className="flex flex-col items-center ">
@@ -55,6 +59,5 @@ export default function HomePage(){
                     </div>
                 </div>
             </div>
-        </Layout>
     );
 }
