@@ -7,9 +7,9 @@ interface XpLineInfo{
 
 export default function XpLineInfo(props: XpLineInfo){
     return (
-        <div className="flex flex-row mt-2">
+        <div className="flex flex-row mt-2 items-start">
             <div className="w-[10%] flex justify-end">
-                <h3 className="text-lg font-bold ">
+                <h3 className="text-base md:text-lg font-bold ">
                     {/* 2024 */}
                     {props.year}
                 </h3>
@@ -23,21 +23,21 @@ export default function XpLineInfo(props: XpLineInfo){
                 "></div>
 
                 <div className="
-                    w-0.5 h-32 
+                    w-0.5 h-72 md:h-32 
                     bg-white
                 ">
 
                 </div>
             </div>
             <div className="flex flex-col justify-start">
-                <h3 className="text-xl font-bold">
+                <h3 className="text-base md:text-xl font-bold">
                     {/* Analista de Desenvolvimento de Produto I */}
                     {props.title}
                 </h3>
-                <h3 className="text-xl">
+                <h3 className="text-base md:text-xl">
                     {props.subtitle}
                 </h3>
-                <h5 className="text-base mt-5">
+                <h5 className="text-sm md:text-base mt-5">
                     {props.description}
                 </h5>
             </div>

@@ -1,9 +1,12 @@
+import { useEffect } from "react";
 import Title from "../Title";
 import XpLineInfo from "../XpLineInfo";
 
 export default function XpPage(){
+    
+
     return (
-        <div className="h-screen bg-dark-gray px-20 py-10">
+        <div className="h-min bg-dark-gray p-10">
             <Title label="EXPERIÊNCIA" />
             <div className="flex flex-col mt-10">
                 <XpLineInfo
