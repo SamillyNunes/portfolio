@@ -47,7 +47,10 @@ export default function XpLineInfo(props: XpLineInfo){
         adjustTextHeigth();
     }, []);
 
-    window.addEventListener('resize', adjustTextHeigth);
+    if(typeof window !== 'undefined'){
+        window.addEventListener('resize', adjustTextHeigth);
+
+    }
 
     return (
         <div className="flex flex-row mt-2 items-start">
