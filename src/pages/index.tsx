@@ -5,7 +5,7 @@ import HomePage from "@/components/pages/HomePage";
 import ProjectsPage from "@/components/pages/ProjectsPage";
 import SkillsPage from "@/components/pages/SkillsPage";
 import XpPage from "@/components/pages/XpPage";
-import { getProjects } from "@/functions/projects";
+import { getProjects } from "@/functions/projectsFunctions";
 
 export async function getStaticProps(){
   const projects = await getProjects();

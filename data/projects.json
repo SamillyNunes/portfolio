@@ -3,6 +3,7 @@
         "title": "Service Tickets",
         "description": "Sistema de abertura de chamados",
         "link": "https://github.com/SamillyNunes/tickets-service",
+        "isHighlight": true,
         "photos": [
             "/images/projects/tickets/dashboard.png",
             "/images/projects/tickets/login.png",
@@ -13,6 +14,7 @@
         "title": "Dashboard Admin",
         "description": "Dashboard de administração de algum serviço",
         "link": "https://github.com/SamillyNunes/dashboard_admin",
+        "isHighlight": true,
         "photos": [
             "/images/projects/dashboard_admin/auth-mobile.png",
             "/images/projects/dashboard_admin/auth-pc.png",
@@ -23,6 +25,7 @@
         "title": "Next CRUD",
         "description": "Sistema de cadastro, edição, consulta e remoção simples.",
         "link": "https://github.com/SamillyNunes/next-crud",
+        "isHighlight": true,
         "photos": [
             "/images/projects/next-crud/editar.png",
             "/images/projects/next-crud/home.png",
@@ -33,6 +36,57 @@
         "title": "Quizz",
         "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
         "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": true,
+        "photos": [
+            "/images/projects/quizz/quiz.jpg",
+            "/images/projects/quizz/results.jpg"
+        ]
+    },
+    {
+        "title": "Quizz",
+        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
+        "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": false,
+        "photos": [
+            "/images/projects/quizz/quiz.jpg",
+            "/images/projects/quizz/results.jpg"
+        ]
+    },
+    {
+        "title": "Quizz",
+        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
+        "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": false,
+        "photos": [
+            "/images/projects/quizz/quiz.jpg",
+            "/images/projects/quizz/results.jpg"
+        ]
+    },
+    {
+        "title": "Quizz",
+        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
+        "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": false,
+        "photos": [
+            "/images/projects/quizz/quiz.jpg",
+            "/images/projects/quizz/results.jpg"
+        ]
+    },
+    {
+        "title": "Quizz",
+        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
+        "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": false,
+        "photos": [
+            "/images/projects/quizz/quiz.jpg",
+            "/images/projects/quizz/results.jpg"
+        ]
+    },
+    {
+        "title": "Quizz",
+        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
+        "link": "https://github.com/SamillyNunes/quizz",
+        "isHighlight": false,
         "photos": [
             "/images/projects/quizz/quiz.jpg",
             "/images/projects/quizz/results.jpg"

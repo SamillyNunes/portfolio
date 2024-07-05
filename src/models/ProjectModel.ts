@@ -3,11 +3,13 @@ export class ProjectModel{
     #description: string;
     #link: string;;
     #photos: string[];
+    #isHighlight: boolean;
 
-    constructor(title: string, description: string, link:string, photos: string[]){
+    constructor(title: string, description: string, link:string, isHighlight: boolean, photos: string[]){
         this.#title=title;
         this.#description=description;
         this.#link=link;
+        this.#isHighlight = isHighlight;
         this.#photos=photos;
     }
 
@@ -23,6 +25,10 @@ export class ProjectModel{
         return this.#link;
     }
 
+    get isHighlight(){
+        return this.#isHighlight;
+    }
+
     get photos(){
         return this.#photos;
     }
@@ -35,6 +41,7 @@ export class ProjectModel{
             json['title'],
             json['description'],
             json['link'],
+            json['isHighlight'],
             json['photos'] as [],
         );
     }
