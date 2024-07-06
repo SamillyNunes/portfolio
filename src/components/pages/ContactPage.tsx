@@ -3,7 +3,7 @@ import Title from "../Title";
 
 export default function ContactPage(){
     return (
-        <div className="flex flex-col h-min w-full p-10 ">
+        <div id="contact" className="flex flex-col h-min w-full p-10 ">
             <div className="flex flex-row justify-center items-center">
                 <Title label="CONTATO" hasLineUnder={false} />
                 <hr className="h-1 w-full bg-white ml-5" />

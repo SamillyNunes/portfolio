@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ProjectCard from "../ProjectCard";
 import Title from "../Title";
 import { convertJsonIntoProjects, getProjects } from "@/functions/projectsFunctions";
@@ -14,12 +15,19 @@ export default function ProjectsPage(props: ProjectsPageInterface){
 
 
     return (
-        <div>
+        <div id="projects">
             <div className={`
                 ${fitAllScreen ? 'h-screen' : 'h-min' }
                 p-10    
             `}>
-                <Title label="PROJETOS" />
+                <div className={`
+                    flex flex-row justify-between
+                `}>
+                    <Title label="PROJETOS" />
+                    <Link href="/projects">
+                        Ver todos
+                    </Link>
+                </div>
                 <div className={`
                     mt-10 
                     grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 

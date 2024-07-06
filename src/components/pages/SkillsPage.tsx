@@ -3,7 +3,7 @@ import Title from "../Title";
 
 export default function SkillsPage(){
     return (
-        <div className="h-min p-10">
+        <div id="skills" className="h-min p-10">
             <Title label="COMPETÊNCIAS" />
             <div className="
                 mt-10 
