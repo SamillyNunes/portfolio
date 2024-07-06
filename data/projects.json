@@ -41,55 +41,5 @@
             "/images/projects/quizz/quiz.jpg",
             "/images/projects/quizz/results.jpg"
         ]
-    },
-    {
-        "title": "Quizz",
-        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
-        "link": "https://github.com/SamillyNunes/quizz",
-        "isHighlight": false,
-        "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
-        ]
-    },
-    {
-        "title": "Quizz",
-        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
-        "link": "https://github.com/SamillyNunes/quizz",
-        "isHighlight": false,
-        "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
-        ]
-    },
-    {
-        "title": "Quizz",
-        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
-        "link": "https://github.com/SamillyNunes/quizz",
-        "isHighlight": false,
-        "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
-        ]
-    },
-    {
-        "title": "Quizz",
-        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
-        "link": "https://github.com/SamillyNunes/quizz",
-        "isHighlight": false,
-        "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
-        ]
-    },
-    {
-        "title": "Quizz",
-        "description": "Quiz de perguntas previamente cadastradas na API criada dentro do mesmo projeto.",
-        "link": "https://github.com/SamillyNunes/quizz",
-        "isHighlight": false,
-        "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
-        ]
     }
 ]
