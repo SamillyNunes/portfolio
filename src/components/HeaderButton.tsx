@@ -12,7 +12,6 @@ export default function HeaderButton(props: HeaderButtonProps){
     const redirectToHomeFirst = props.redirectToHomeFirst ?? false;
 
     function onClick(){
-        alert(redirectToHomeFirst)
         if(redirectToHomeFirst){
             route.push('/');
         }

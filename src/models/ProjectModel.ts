@@ -34,9 +34,6 @@ export class ProjectModel{
     }
 
     static fromMap(json: any){
-        console.log('mapping...');
-        console.log(json);
-        console.log(json['title']);
         return new ProjectModel(
             json['title'],
             json['description'],

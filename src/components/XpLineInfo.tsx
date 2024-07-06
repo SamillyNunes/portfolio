@@ -31,14 +31,9 @@ export default function XpLineInfo(props: XpLineInfo){
         if(sourceDiv1Height && sourceDiv2Height && sourceDiv3Height){
             const heightsSum =  sourceDiv1Height + sourceDiv2Height + sourceDiv3Height;
 
-            // alert(heightsSum);
-
             const targetDiv = document.getElementById(targetId);
             if(targetDiv!=null){
-                // targetDiv.style.height = `${heightsSum}px`;
-                // alert(heightsSum.toString()+'px');
                 setLineHeight(heightsSum);
-                console.log(`line height: ${heightsSum}`)
             }
         }
     }
