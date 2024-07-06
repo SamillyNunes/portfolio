@@ -18,6 +18,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Screenshots
 
+- Página inicial / Home
+<img src="https://github.com/SamillyNunes/portfolio/blob/main/readme/home.png" width=700 />
+
+- Experiências / Experience
+<img src="https://github.com/SamillyNunes/portfolio/blob/main/readme/xp.png" width=700 />
+
+
 ## Status
 
 The project is in development.
