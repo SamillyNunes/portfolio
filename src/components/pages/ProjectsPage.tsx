@@ -24,9 +24,11 @@ export default function ProjectsPage(props: ProjectsPageInterface){
                     flex flex-row justify-between
                 `}>
                     <Title label="PROJETOS" />
-                    <Link href="/projects">
-                        Ver todos
-                    </Link>
+                    {!fitAllScreen && 
+                        <Link href="/projects">
+                            Ver todos
+                        </Link>
+                    }
                 </div>
                 <div className={`
                     mt-10 
