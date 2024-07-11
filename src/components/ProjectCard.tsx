@@ -5,6 +5,7 @@ interface ProjectCardProps{
     description: string;
     link: string;
     photos: string[];
+    onSelectProject: () => void;
 }
 
 
@@ -26,7 +27,8 @@ export default function ProjectCard(props: ProjectCardProps){
                 {props.title}
             </h1>
             <div
-                onMouseDown={()=>window.open(props.link)} 
+                // onMouseDown={()=>window.open(props.link)} 
+                onMouseDown={props.onSelectProject}
                 onMouseEnter={()=>setIsHovering(true)}
                 onMouseLeave={()=>setIsHovering(false)}
                 className="

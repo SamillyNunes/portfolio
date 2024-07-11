@@ -8,6 +8,15 @@
             "/images/projects/tickets/dashboard.png",
             "/images/projects/tickets/login.png",
             "/images/projects/tickets/novo-chamado.png"
+        ],
+        "language":"Typescript",
+        "framework":"NextJs",
+        "features": [
+            "Criação, consulta e atualização de chamado",
+            "Integração com firebase",
+            "Armazenamento de imagens no firebase",
+            "Rotas privadas",
+            "Login e cadastro"
         ]
     },
     {
@@ -19,6 +28,14 @@
             "/images/projects/dashboard_admin/auth-mobile.png",
             "/images/projects/dashboard_admin/auth-pc.png",
             "/images/projects/dashboard_admin/dash-dark.png"
+        ],
+        "language":"Typescript",
+        "framework":"NextJs",
+        "features": [
+            "Integração com firebase",
+            "Rotas privadas",
+            "Login e cadastro",
+            "Mudança de tema entre claro e escuro"
         ]
     },
     {
@@ -30,6 +47,12 @@
             "/images/projects/next-crud/editar.png",
             "/images/projects/next-crud/home.png",
             "/images/projects/next-crud/novo.png"
+        ],
+        "language":"Typescript",
+        "framework":"NextJs",
+        "features": [
+            "Integração com firebase",
+            "Criação, atualização, consulta e remoção de clientes"
         ]
     },
     {
@@ -40,6 +63,11 @@
         "photos": [
             "/images/projects/quizz/quiz.jpg",
             "/images/projects/quizz/results.jpg"
+        ],
+        "language":"Typescript",
+        "features": [
+            "Criação de API com questões",
+            "Consulta a API"
         ]
     }
 ]

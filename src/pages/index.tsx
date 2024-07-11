@@ -5,7 +5,10 @@ import HomePage from "@/components/pages/HomePage";
 import ProjectsPage from "@/components/pages/ProjectsPage";
 import SkillsPage from "@/components/pages/SkillsPage";
 import XpPage from "@/components/pages/XpPage";
+import ProjectModal from "@/components/ProjectModal";
 import { getProjects } from "@/functions/projectsFunctions";
+import { ProjectModel } from "@/models/ProjectModel";
+import { useState } from "react";
 
 export async function getStaticProps(){
   const projects = await getProjects();
@@ -19,6 +22,8 @@ export async function getStaticProps(){
 
 
 export default function Home({projects}) {
+  const [projectSelect, setProjectSelected] = useState<ProjectModel | null>(null);
+
   return (
     <div className="flex flex-col">
         <Header/>
@@ -26,8 +31,9 @@ export default function Home({projects}) {
         <AboutPage/>
         <XpPage/>
         <SkillsPage/>
-        <ProjectsPage projects={projects} />
+        <ProjectsPage projects={projects} openProjectDialog={setProjectSelected} />
         <ContactPage />
+        {projectSelect!==null && <ProjectModal project={projectSelect} onCloseModal={()=>setProjectSelected(null)} />}
     </div>
   );
 }

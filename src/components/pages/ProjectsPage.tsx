@@ -6,6 +6,7 @@ import { convertJsonIntoProjects, getProjects } from "@/functions/projectsFuncti
 interface ProjectsPageInterface{
     projects: any;
     fitAllScreen?: boolean;
+    openProjectDialog: (ProjectModel) => void;
 }
 
 export default function ProjectsPage(props: ProjectsPageInterface){
@@ -43,6 +44,7 @@ export default function ProjectsPage(props: ProjectsPageInterface){
                             link={p.link}
                             photos={p.photos}
                             key={i}
+                            onSelectProject={() => props.openProjectDialog(p)}
                         />
                     ))}
                 </div>
