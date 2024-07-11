@@ -1,12 +1,13 @@
 import Link from "next/link";
 import ProjectCard from "../ProjectCard";
 import Title from "../Title";
-import { convertJsonIntoProjects, getProjects } from "@/functions/projectsFunctions";
+import { convertJsonIntoProjects } from "@/functions/projectsFunctions";
+import { ProjectModel } from "@/models/ProjectModel";
 
 interface ProjectsPageInterface{
     projects: any;
     fitAllScreen?: boolean;
-    openProjectDialog: (ProjectModel) => void;
+    openProjectDialog: (project: ProjectModel) => void;
 }
 
 export default function ProjectsPage(props: ProjectsPageInterface){
@@ -49,9 +50,6 @@ export default function ProjectsPage(props: ProjectsPageInterface){
                     ))}
                 </div>
             </div>
-            {/* <div className="h-screen w-screen bg-slate-400 absolute">
-
-            </div> */}
         </div>
     );
 }

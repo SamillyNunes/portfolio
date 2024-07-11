@@ -62,7 +62,7 @@ export default function ProjectModal(props: ProjectModalProps) {
                             {props.project.description}
                         </h2>
 
-                        <Link href={props.project.link} target="_blank" className="absolute bottom-5 hover:scale-110 duration-300">
+                        <Link href={props.project.githubLink} target="_blank" className="absolute bottom-5 hover:scale-110 duration-300">
                             <div className="flex items-center justify-center">
                                 <img src="/images/icons/github.png" alt="Ícone do Github" className="h-5 mr-2" />
                                 <h1>
