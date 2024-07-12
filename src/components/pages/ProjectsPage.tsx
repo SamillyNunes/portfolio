@@ -19,7 +19,7 @@ export default function ProjectsPage(props: ProjectsPageInterface){
     return (
         <div id="projects">
             <div className={`
-                ${fitAllScreen ? 'h-screen' : 'h-min' }
+                ${fitAllScreen ? 'h-full' : 'h-min' }
                 p-10    
             `}>
                 <div className={`
