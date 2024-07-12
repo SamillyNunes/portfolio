@@ -20,19 +20,22 @@ export default function Header(props: HeaderProps){
                 <HeaderButton
                     label="SOBRE MIM"
                     to="about"
-                    redirectToHomeFirst
+                    redirectToHomeFirst={redirectToHomeFirst}
                 />
                 <HeaderButton
                     label="COMPETÊNCIAS"
                     to="skills"
+                    redirectToHomeFirst={redirectToHomeFirst}
                 />
                 <HeaderButton
                     label="PROJETOS"
                     to="projects"
+                    redirectToHomeFirst={redirectToHomeFirst}
                 />
                 <HeaderButton
                     label="CONTATO"
                     to="contact"
+                    redirectToHomeFirst={redirectToHomeFirst}
                 />
             </div>
         </div>

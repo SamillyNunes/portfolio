@@ -22,7 +22,7 @@ export default function AllProjectsPage({projects}){
 
     return (
         <div>
-            <Header />
+            <Header redirectToHomeFirst />
             <ProjectsPage projects={projects} fitAllScreen openProjectDialog={projectsData.setProjectSelected} />
             
             {projectsData.projectSelected !==null && <ProjectModal project={projectsData.projectSelected} onCloseModal={()=>projectsData.setProjectSelected(null)} />}
