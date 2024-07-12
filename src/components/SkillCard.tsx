@@ -59,7 +59,11 @@ export default function SkillCard(props: SkillCardProps){
                     Habilidade:
                 </div>
                 <div className="flex flex-row">
-                    {getStarsRanking().map(star => (star))}
+                    {getStarsRanking().map((star, index) => (
+                        <div key={index}>
+                            {star}
+                        </div>
+                    ))}
                 </div>
             </div>
 
