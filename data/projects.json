@@ -1,14 +1,14 @@
 [
     {
-        "title": "Service Tickets",
+        "title": "Tickets Service",
         "description": "Sistema de abertura de chamados",
         "githubLink": "https://github.com/SamillyNunes/tickets-service",
         "link":"https://servicetickets.netlify.app",
         "isHighlight": true,
         "photos": [
-            "/images/projects/tickets/dashboard.png",
-            "/images/projects/tickets/login.png",
-            "/images/projects/tickets/novo-chamado.png"
+            "https://raw.githubusercontent.com/SamillyNunes/tickets-service/main/readme-imgs/dashboard.png",
+            "https://raw.githubusercontent.com/SamillyNunes/tickets-service/main/readme-imgs/login.png",
+            "https://raw.githubusercontent.com/SamillyNunes/tickets-service/main/readme-imgs/novo-chamado.png"
         ],
         "language":"Typescript",
         "framework":"NextJs",
@@ -26,9 +26,9 @@
         "githubLink": "https://github.com/SamillyNunes/dashboard_admin",
         "isHighlight": true,
         "photos": [
-            "/images/projects/dashboard_admin/auth-mobile.png",
-            "/images/projects/dashboard_admin/auth-pc.png",
-            "/images/projects/dashboard_admin/dash-dark.png"
+            "https://raw.githubusercontent.com/SamillyNunes/dashboard_admin/main/readme/auth-mobile.png",
+            "https://raw.githubusercontent.com/SamillyNunes/dashboard_admin/main/readme/auth-pc.png",
+            "https://raw.githubusercontent.com/SamillyNunes/dashboard_admin/main/readme/dash-dark.png"
         ],
         "language":"Typescript",
         "framework":"NextJs",
@@ -46,9 +46,9 @@
         "link":"https://nextjs-crud-ssn.netlify.app",
         "isHighlight": true,
         "photos": [
-            "/images/projects/next-crud/editar.png",
-            "/images/projects/next-crud/home.png",
-            "/images/projects/next-crud/novo.png"
+            "https://raw.githubusercontent.com/SamillyNunes/next-crud/main/readme/editar.png",
+            "https://raw.githubusercontent.com/SamillyNunes/next-crud/main/readme/home.png",
+            "https://raw.githubusercontent.com/SamillyNunes/next-crud/main/readme/novo.png"
         ],
         "language":"Typescript",
         "framework":"NextJs",
@@ -64,8 +64,8 @@
         "link":"https://quizz-ssn.vercel.app/",
         "isHighlight": true,
         "photos": [
-            "/images/projects/quizz/quiz.jpg",
-            "/images/projects/quizz/results.jpg"
+            "https://github.com/SamillyNunes/quizz/blob/main/assets/readme/quiz.jpg?raw=true",
+            "https://github.com/SamillyNunes/quizz/blob/main/assets/readme/results.jpg?raw=true"
         ],
         "language":"Typescript",
         "framework":"NextJs",
@@ -81,10 +81,98 @@
         "link":"https://monty-hall-ssn.vercel.app/",
         "isHighlight": false,
         "photos": [
-            "/images/projects/monty-hall/home.png",
-            "/images/projects/monty-hall/game.png"
+            "https://github.com/SamillyNunes/monty_hall/blob/main/readme/game.png?raw=true",
+            "https://github.com/SamillyNunes/monty_hall/blob/main/readme/home.png?raw=truee"
         ],
         "language":"Typescript",
         "framework":"NextJs"
+    },
+    {
+        "title": "GitRepos",
+        "description": "Sistema usado para salvar repositórios e ter fácil acesso a seus projetos e issues",
+        "githubLink": "https://github.com/SamillyNunes/repos",
+        "isHighlight": false,
+        "photos": [
+            "https://raw.githubusercontent.com/SamillyNunes/repos/main/readme/home.png",
+            "https://raw.githubusercontent.com/SamillyNunes/repos/main/readme/issue.png"
+        ],
+        "language":"Typescript",
+        "framework":"NextJs",
+        "features": [
+            "Registro de repositórios",
+            "Consulta a API de repositórios do github e suas issues",
+            "Filtro entre issues abertas ou fechadas"
+        ]
+    },
+    {
+        "title": "FireTasks",
+        "description": "Sistema usado para cadastrar e monitorar tarefas",
+        "githubLink": "https://github.com/SamillyNunes/fire_tasks",
+        "link":"https://firetasks-sd.netlify.app/",
+        "isHighlight": false,
+        "photos": [
+            "https://github.com/SamillyNunes/fire_tasks/blob/main/readme/login.png?raw=true",
+            "https://github.com/SamillyNunes/fire_tasks/blob/main/readme/tasks.png?raw=true"
+        ],
+        "language":"Javascript",
+        "framework":"React",
+        "features": [
+            "Registro de tarefas",
+            "Login e cadastro com Firebase"
+        ]
+    },
+    {
+        "title": "PrimeFlix",
+        "description": "Sistema usado mostrar os filmes em cartaz",
+        "githubLink": "https://github.com/SamillyNunes/prime_flix",
+        "link":"https://primeflix-sd.netlify.app/",
+        "isHighlight": false,
+        "photos": [
+            "https://github.com/SamillyNunes/prime_flix/blob/main/readme/home.png?raw=true",
+            "https://github.com/SamillyNunes/prime_flix/blob/main/readme/favorites.png?raw=true",
+            "https://github.com/SamillyNunes/prime_flix/blob/main/readme/movie.png?raw=true"
+        ],
+        "language":"Javascript",
+        "framework":"React",
+        "features": [
+            "Consulta a API de filmes",
+            "Armazenamento local"
+        ]
+    },
+    {
+        "title": "Dev Quiz NLW5",
+        "description": "Aplicativo mobile que contém um quiz sobre programação.",
+        "githubLink": "https://github.com/SamillyNunes/dev_quiz_nlw5",
+        "isHighlight": true,
+        "photos": [
+            "https://github.com/SamillyNunes/dev_quiz_nlw5/blob/main/assets/readme/light_home.jpg?raw=true",
+            "https://github.com/SamillyNunes/dev_quiz_nlw5/blob/main/assets/readme/light_question.jpg?raw=true",
+            "https://github.com/SamillyNunes/dev_quiz_nlw5/blob/main/assets/readme/light_login.jpg?raw=true"
+        ],
+        "language":"Dart",
+        "framework":"Flutter",
+        "features": [
+            "Login com Firebase",
+            "Temas claro e escuro",
+            "Rotas nomeadas"
+        ]
+    },
+    {
+        "title": "Dream Tasks",
+        "description": "Aplicativo mobile que cadastra as tarefas e hábitos.",
+        "githubLink": "https://github.com/SamillyNunes/dream_tasks",
+        "isHighlight": false,
+        "photos": [
+            "https://github.com/SamillyNunes/dream_tasks/blob/master/images/screens-github/home-dark.jpg?raw=true",
+            "https://github.com/SamillyNunes/dream_tasks/blob/master/images/screens-github/calendar-screen.jpg?raw=true",
+            "https://github.com/SamillyNunes/dream_tasks/blob/master/images/screens-github/goals-screen.jpg?raw=true"
+        ],
+        "language":"Dart",
+        "framework":"Flutter",
+        "features": [
+            "Gerenciamento de estados com MobX",
+            "Gerenciamento de metas diárias e projetos",
+            "Temas claro e escuro"
+        ]
     }
 ]
