@@ -101,8 +101,8 @@ export default function ProjectModal(props: ProjectModalProps) {
                     {props.project.featuresDescription && <div className=" mt-3">
                         <h1 className="mr-2 mb-2 font-bold">Funcionalidades: </h1>
                         <ul>
-                            {props.project.featuresDescription.map(f => (
-                                <li className="list-disc ml-10"> {f} </li>
+                            {props.project.featuresDescription.map((f, i) => (
+                                <li key={i} className="list-disc ml-10"> {f} </li>
                             ))}
                         </ul>
                     </div>}
