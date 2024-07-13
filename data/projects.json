@@ -24,7 +24,7 @@
         "title": "Dashboard Admin",
         "description": "Dashboard de administração de algum serviço",
         "githubLink": "https://github.com/SamillyNunes/dashboard_admin",
-        "isHighlight": true,
+        "isHighlight": false,
         "photos": [
             "https://raw.githubusercontent.com/SamillyNunes/dashboard_admin/main/readme/auth-mobile.png",
             "https://raw.githubusercontent.com/SamillyNunes/dashboard_admin/main/readme/auth-pc.png",
