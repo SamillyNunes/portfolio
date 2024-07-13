@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import AboutPage from "@/components/pages/AboutPage";
+import AwardsPage from "@/components/pages/AwardsPage";
 import ContactPage from "@/components/pages/ContactPage";
 import HomePage from "@/components/pages/HomePage";
 import ProjectsPage from "@/components/pages/ProjectsPage";
@@ -34,6 +35,7 @@ export default function Home({projects}) {
         <XpPage/>
         <SkillsPage/>
         <ProjectsPage projects={projects} openProjectDialog={projectsData.setProjectSelected} />
+        <AwardsPage />
         <ContactPage />
         {projectsData.projectSelected !==null && <ProjectModal project={projectsData.projectSelected} onCloseModal={()=>projectsData.setProjectSelected(null)} />}
     </div>
