@@ -18,7 +18,7 @@ export default function SkillsPage(){
                 <SkillCard
                     label="Python"
                     imageUrl="/images/skills/python.png"
-                    skillRank={4}
+                    skillRank={5}
                 />
                 <SkillCard
                     label="Javascript"
@@ -51,6 +51,11 @@ export default function SkillsPage(){
                     skillRank={5}
                 />
                 <SkillCard
+                    label="CSS"
+                    imageUrl="/images/skills/css.png"
+                    skillRank={4}
+                />
+                <SkillCard
                     label="Github"
                     imageUrl="/images/skills/github.png"
                     skillRank={5}
@@ -64,6 +69,36 @@ export default function SkillsPage(){
                     label="Firebase"
                     imageUrl="/images/skills/firebase.png"
                     skillRank={4}
+                />
+                <SkillCard
+                    label="Docker"
+                    imageUrl="/images/skills/docker.png"
+                    skillRank={3}
+                />
+                <SkillCard
+                    label="Java"
+                    imageUrl="/images/skills/java.png"
+                    skillRank={3}
+                />
+                <SkillCard
+                    label="C#"
+                    imageUrl="/images/skills/csharp.png"
+                    skillRank={3}
+                />
+                <SkillCard
+                    label="Unity3D"
+                    imageUrl="/images/skills/unity3d.png"
+                    skillRank={3}
+                />
+                <SkillCard
+                    label="MySQL"
+                    imageUrl="/images/skills/mysql.png"
+                    skillRank={3}
+                />
+                <SkillCard
+                    label="MongoDB"
+                    imageUrl="/images/skills/mongodb.png"
+                    skillRank={3}
                 />
             </div>
         </div>
