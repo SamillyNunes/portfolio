@@ -13,8 +13,8 @@ import { Metadata } from "next";
 import { useContext, useState } from "react";
 
 export const metadata: Metadata = {
-  title: 'Portfólio Samilly Nunes',
-  description: 'Site portfólio da desenvolvedora de software Samilly Nunes',
+  title: "Portfólio Samilly Nunes",
+  description: "Site portfólio da desenvolvedora de software Samilly Nunes",
 }
 
 export async function getStaticProps(){

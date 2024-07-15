@@ -1,6 +1,10 @@
-import { useEffect } from "react";
+import getShowAnimation from "@/utils/showAnimation";
+import { motion } from "framer-motion";
+import { useEffect, useMemo } from "react";
+import AnimatedDiv from "../AnimatedDiv";
 
 export default function HomePage(){
+
     function adjustTextWidth(){
         const sourceDiv = document.getElementById('source');
         const sourceDivWidth = sourceDiv?.offsetWidth;
@@ -22,7 +26,7 @@ export default function HomePage(){
             text-white 
             h-screen md:h-[calc(100vh*0.85)] 
         ">
-                <div className="
+                <AnimatedDiv className="
                     md:w-[100%] lg:w-[50%] md:h-min lg:h-[80%] 
                     md:my-10
                     flex flex-col justify-center 
@@ -42,7 +46,7 @@ export default function HomePage(){
                     <h3 className="text-xl">
                         Conheça mais ⬇
                     </h3>
-                </div>
+                </AnimatedDiv>
                 <div className="
                     md:w-[50%] lg:w-[50%] md:h-min lg:h-[80%] 
                     mt-10 md:mt-0
