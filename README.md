@@ -1,4 +1,5 @@
 # Portofólio Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28dcc2c5-57c7-48f5-8f30-c9af04e7f46e/deploy-status)](https://app.netlify.com/sites/portfolio-samydev/deploys)
 
 Projeto com o objetivo de detalhar minhas informações profissionais, tais como experiência, projetos e outros. Desenvolvido com o NextJs, Typescript e TalwindCSS.
 
