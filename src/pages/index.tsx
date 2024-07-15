@@ -7,7 +7,7 @@ import SkillsPage from "@/components/pages/SkillsPage";
 import XpPage from "@/components/pages/XpPage";
 import ProjectModal from "@/components/ProjectModal";
 import ProjectsContext from "@/context/ProjectsContext";
-import { getProjects } from "@/functions/projectsFunctions";
+import { getProjects } from "@/utils/projectsFunctions";
 import { ProjectModel } from "@/models/ProjectModel";
 import { Metadata } from "next";
 import { useContext, useState } from "react";

@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import ProjectsPage from "@/components/pages/ProjectsPage";
 import ProjectModal from "@/components/ProjectModal";
 import ProjectsContext from "@/context/ProjectsContext";
-import { getProjects } from "@/functions/projectsFunctions";
+import { getProjects } from "@/utils/projectsFunctions";
 import { useContext } from "react";
 
 export async function getStaticProps(){

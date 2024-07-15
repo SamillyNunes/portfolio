@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ProjectCard from "../ProjectCard";
 import Title from "../Title";
-import { convertJsonIntoProjects } from "@/functions/projectsFunctions";
+import { convertJsonIntoProjects } from "@/utils/projectsFunctions";
 import { ProjectModel } from "@/models/ProjectModel";
 
 interface ProjectsPageInterface{
