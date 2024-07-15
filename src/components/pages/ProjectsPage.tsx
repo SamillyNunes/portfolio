@@ -34,7 +34,7 @@ export default function ProjectsPage(props: ProjectsPageInterface){
                 </div>
                 <div className={`
                     mt-10 
-                    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 
+                    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10
                     justify-center justify-items-center
                     ${fitAllScreen ? 'h-[90%] ' : ''}
                 `}>
