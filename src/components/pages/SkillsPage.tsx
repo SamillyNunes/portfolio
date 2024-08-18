@@ -18,7 +18,7 @@ export default function SkillsPage(){
                 <SkillCard
                     label="Python"
                     imageUrl="/images/skills/python.png"
-                    skillRank={5}
+                    skillRank={4}
                 />
                 <SkillCard
                     label="Javascript"
@@ -75,7 +75,7 @@ export default function SkillsPage(){
                     imageUrl="/images/skills/docker.png"
                     skillRank={3}
                 />
-                <SkillCard
+                {/* <SkillCard
                     label="Java"
                     imageUrl="/images/skills/java.png"
                     skillRank={3}
@@ -89,7 +89,7 @@ export default function SkillsPage(){
                     label="Unity3D"
                     imageUrl="/images/skills/unity3d.png"
                     skillRank={3}
-                />
+                /> */}
                 <SkillCard
                     label="MySQL"
                     imageUrl="/images/skills/mysql.png"
@@ -98,7 +98,7 @@ export default function SkillsPage(){
                 <SkillCard
                     label="MongoDB"
                     imageUrl="/images/skills/mongodb.png"
-                    skillRank={3}
+                    skillRank={2}
                 />
             </div>
         </div>
