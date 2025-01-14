@@ -10,6 +10,12 @@ export default function XpPage(){
             <Title label="EXPERIÊNCIA" />
             <div className="flex flex-col mt-10 ">
                 <XpLineInfo
+                    year="2025"
+                    title="Desenvolvedora Front-end"
+                    subtitle="EGE Soluções, Remoto, Freelancer"
+                    description="Desenvolvimento de websites focados na usabilidade e responsividade utilizando tecnologias como Vue.js, React.js, Typescript e em alguns outros, Flutter. Atuação em conjunto com equipe, fazendo o uso de ferramentas como Git, Jira e outros."
+                />
+                <XpLineInfo
                     year="2024"
                     title="Analista de Desenvolvimento de Produto I"
                     subtitle="Intelbras, Remoto"
