@@ -1,7 +1,7 @@
 import SkillCard from "../SkillCard";
 import Title from "../Title";
 
-export default function SkillsPage(){
+export default function SkillsPage() {
     return (
         <div id="skills" className="h-min p-10">
             <Title label="COMPETÊNCIAS" />
@@ -16,13 +16,18 @@ export default function SkillsPage(){
                     skillRank={5}
                 />
                 <SkillCard
-                    label="Python"
-                    imageUrl="/images/skills/python.png"
+                    label="React.js"
+                    imageUrl="/images/skills/react.png"
                     skillRank={4}
                 />
                 <SkillCard
-                    label="Javascript"
-                    imageUrl="/images/skills/javascript.png"
+                    label="Next.js"
+                    imageUrl="/images/skills/nextjs.png"
+                    skillRank={4}
+                />
+                <SkillCard
+                    label="Vue.js"
+                    imageUrl="/images/skills/vuejs.png"
                     skillRank={4}
                 />
                 <SkillCard
@@ -31,17 +36,12 @@ export default function SkillsPage(){
                     skillRank={5}
                 />
                 <SkillCard
-                    label="React"
-                    imageUrl="/images/skills/react.png"
+                    label="Javascript"
+                    imageUrl="/images/skills/javascript.png"
                     skillRank={4}
                 />
                 <SkillCard
-                    label="NextJs"
-                    imageUrl="/images/skills/nextjs.png"
-                    skillRank={4}
-                />
-                <SkillCard
-                    label="TalwindCss"
+                    label="TalwindCSS"
                     imageUrl="/images/skills/tailwindcss.png"
                     skillRank={5}
                 />
@@ -59,6 +59,11 @@ export default function SkillsPage(){
                     label="Github"
                     imageUrl="/images/skills/github.png"
                     skillRank={5}
+                />
+                <SkillCard
+                    label="Python"
+                    imageUrl="/images/skills/python.png"
+                    skillRank={4}
                 />
                 <SkillCard
                     label="Django"
